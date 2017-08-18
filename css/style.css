@@ -1,0 +1,91 @@
+/*header*/
+
+.main_header {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #468250;
+}
+
+h1 {
+  font-family: 'Fugaz One', cursive, 'Arial';
+  text-align: center;
+  color: #fff;
+  font-size: 3.5em;
+  margin-top: 50px;
+}
+
+header div {
+  margin: 25px 50px;
+}
+
+/*main*/
+
+.wrapper {
+  margin: 50px 150px;
+  width: auto;
+}
+
+.img {
+  border: 2px solid #000;
+  max-width: 100%;
+}
+
+hr {
+  border: 2px solid #468250;
+}
+
+main p, ul, ol {
+
+  font-family: 'Open Sans', sans-serif, 'Times New Roman';
+  font-size: 1.25em;
+  margin: 50px 200px;
+
+}
+
+h2 {
+  font-family: 'Cabin', sans-serif, 'Times New Roman';
+  font-size: 2em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h6 {
+  font-family: 'Open Sans', sans-serif, 'Times New Roman';
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 150px;
+}
+
+/*footer*/
+
+footer h5 {
+  font-family: 'Cabin', sans-serif, 'Arial';
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+}
+
+footer p {
+  font-family: 'Open Sans', sans-serif, 'Times New Roman';
+  margin: 50px 50px;
+}
+
+footer div {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/*psuedo selectors*/
+
+a:link {
+  text-decoration: none;
+  color: #468250
+}
+
+a:visited {
+  text-decoration: none;
+  color: #468250
+}
+a:hover {
+  color: #5490D6
+}
